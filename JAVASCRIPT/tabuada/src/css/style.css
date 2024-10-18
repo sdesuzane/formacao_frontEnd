@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Prompt", sans-serif;
+}
+
+body {
+  text-align: center;
+  padding: 2rem;
+  min-height: 100vh;
+  background: linear-gradient(to right, #94bbe9, #7f649b);
+  background-size: 500% 100%;
+  animation: anima 4s infinite linear alternate;
+  color: #f8c8ed;
+}
+body h2 {
+  margin-bottom: 2rem;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: rgba(0, 0, 0, 0.2);
+}
+
+#multiplication-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 1rem auto;
+  max-width: 300px;
+  padding: 1rem;
+  background-color: #e2e2e2;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 1rem;
+  color: #333;
+}
+#multiplication-form .form-control {
+  flex-direction: column;
+  width: 100px;
+  margin: 0 1rem;
+}
+#multiplication-form .form-control label {
+  margin-bottom: 0.6rem;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+#multiplication-form .form-control input {
+  margin-bottom: 1rem;
+  flex: 1;
+  padding: 0.6rem 0.4rem;
+  border: 1px solid #333;
+  width: 50px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#multiplication-form input[type=submit] {
+  max-height: 50px;
+  padding: 0.6rem 1.2rem;
+  width: 200px;
+  color: #fff;
+  background-color: #333;
+  border: 1px solid #333;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#multiplication-operations {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 300px;
+  margin: 1rem auto;
+  padding: 2rem 1rem;
+  background-color: #e2e2e2;
+  color: #333;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+#multiplication-operations .row {
+  display: flex;
+  justify-content: center;
+  border: 1px solid #ccc;
+  border-bottom: none;
+  padding: 0.5rem;
+  width: 150px;
+}
+#multiplication-operations .row:last-child {
+  border-bottom: 1px solid #ccc;
+}
+#multiplication-operations #result {
+  margin-left: 0.4rem;
+}
+
+@keyframes anima {
+  0% {
+    background-position-x: 0%;
+  }
+  100% {
+    background-position-x: 100%;
+  }
+}/*# sourceMappingURL=style.css.map */
