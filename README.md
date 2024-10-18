@@ -1,6 +1,6 @@
 ## FORMAÇÃO FRONT-END - HTML, CSS, JAVASCRIPT, REACT E +
 
-<h3> HTML e CSS</h3>
+<h3> HTML e CSS:</h3>
 
 - [How I Met Your Mother](HTML_CSS/how_I_met_your_mother/)
 
@@ -22,4 +22,8 @@
 
 <img alt="Blog semantico" width="400px" height="200px" src="img/blog_semantico.png">
 
-<h3> JavaScript</h3>
+<h3> JAVASCRIPT:</h3>
+
+- [Tabuada de Multiplicação (com fundo animado)](JAVASCRIPT/tabuada/)
+
+<img alt="image tabuada de multiplicacao" width="400px" height="200px" src="img/capa_tabuada.png">
