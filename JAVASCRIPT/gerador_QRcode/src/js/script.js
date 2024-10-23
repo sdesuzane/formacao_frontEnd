@@ -4,6 +4,7 @@ const qrCodeInput = document.querySelector("#qr-form input")
 const qrCodeImg = document.querySelector("#qr-code img")
 
 
+// Gerar QR Code
 function generateQrCode() {
     const qrCodeInputValue = qrCodeInput.value 
     if (!qrCodeInputValue) return
@@ -17,4 +18,16 @@ function generateQrCode() {
 }
 qrCodeBtn.addEventListener("click", () => {
     generateQrCode()
+})
+qrCodeInput.addEventListener("keydown", (e) => {
+    if(e.code === "Enter") {
+        generateQrCode()
+    }
+})
+// limpar QR Code
+qrCodeInput.addEventListener("keyup", () => {
+    if(!qrCodeInput.value) {
+        container.classList.remove("active")
+        qrCodeBtn.innerText ="Gerar QR Code"
+    }
 })
